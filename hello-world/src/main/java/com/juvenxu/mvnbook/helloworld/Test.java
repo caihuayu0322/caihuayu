@@ -103,18 +103,18 @@ public class Test extends MouseAdapter{
 		linkButton.setBounds(100,100,50,30);
 		frame.add(linkButton);
 		
-		//文本框加监听实现验证
-		JTextField jt = new JTextField();
-		jt.setBounds(10, 20, 100,30);
-		jt.addKeyListener(new KeyAdapter() {
-			public void keyTyped(KeyEvent e){
-				char c = e.getKeyChar();
-//				if(Character.isDigit(c))
-//					return;
-				e.consume();
-			}
-		});
-		frame.add(jt);
+//		//文本框加监听实现验证
+//		JTextField jt = new JTextField();
+//		jt.setBounds(10, 20, 100,30);
+//		jt.addKeyListener(new KeyAdapter() {
+//			public void keyTyped(KeyEvent e){
+//				char c = e.getKeyChar();
+////				if(Character.isDigit(c))
+////					return;
+//				e.consume();
+//			}
+//		});
+//		frame.add(jt);
 		
 		frame.setVisible(true);	
 	}
