@@ -16,7 +16,6 @@ public class App {
 	private Date ctime;
 	private Date lastModified;
 	private String packageName;
-	23
 	
 	
 	public int getId() {
