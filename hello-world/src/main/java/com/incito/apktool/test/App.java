@@ -5,7 +5,11 @@ import java.util.Date;
 
 public class App {
 
+<<<<<<< HEAD
 	private int id;
+=======
+	private int if;
+>>>>>>> branch 'master' of https://github.com/caihuayu0322/caihuayu.git
 	private String name;
 	private int code;
 	private String version;
