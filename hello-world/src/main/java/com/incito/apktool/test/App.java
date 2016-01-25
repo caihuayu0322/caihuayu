@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class App {
 
-	private int id;
+	private int ic;
 	private String name;
 	private int code;
 	private String version;
